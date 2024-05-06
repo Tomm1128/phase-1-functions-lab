@@ -1,7 +1,5 @@
 // Code your solution in this file!
 
-
-
 function distanceFromHqInBlocks(distance) {
     //returns the number of blocks given a value
 
@@ -11,8 +9,6 @@ function distanceFromHqInBlocks(distance) {
         return 42 - distance;
     }
   }
-
-
 
   function distanceFromHqInFeet(distance) {
     // call the distanceFromHqInBlocks function from inside the distanceFromHqInFeet function,
@@ -24,7 +20,6 @@ function distanceFromHqInBlocks(distance) {
     return blocks * 264;
   }
   
-
   function distanceTravelledInFeet(start, destination) {
     //returns the number of feet traveled
 
@@ -38,8 +33,6 @@ function distanceFromHqInBlocks(distance) {
 
     return blockDiff * 264;
   }
-
-
 
   function calculatesFarePrice(start, destination) {
     //returns the fare for the customer
@@ -55,8 +48,4 @@ function distanceFromHqInBlocks(distance) {
     } else {
         return "cannot travel that far";
     }
-
   }
-
-
-
